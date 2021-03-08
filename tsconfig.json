@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["express"],
+    "target": "es5",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "outDir": "./",
+    "moduleResolution": "node",
+    "sourceMap": true
+  },
+  "exclude": ["Dom"],
+  "include": []
+}
