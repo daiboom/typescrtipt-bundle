@@ -10,3 +10,5 @@ app.get('/', (req: express.Request, res: express.Response) => {
 app.listen(port, () => {
   console.log(`http://localhost:${port}`)
 })
+
+export default app

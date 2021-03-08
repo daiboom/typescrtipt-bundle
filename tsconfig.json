@@ -3,13 +3,14 @@
     "types": ["express"],
     "target": "es5",
     "module": "commonjs",
+    "allowJs": true,
     "strict": false,
     "esModuleInterop": true,
     "baseUrl": "./",
-    "outDir": "./",
+    "outDir": "./dist",
     "moduleResolution": "node",
     "sourceMap": true
   },
-  "exclude": ["Dom"],
-  "include": []
+  "exclude": ["dom", "node_modules"],
+  "include": ["./index.ts"]
 }
